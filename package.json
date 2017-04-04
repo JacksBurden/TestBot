@@ -1,5 +1,5 @@
 {
-  "name": "messengerbot",
+  "name": "TestBot",
   "version": "1.0.0",
   "description": "A simple messenger bot for experimentation purposes",
   "main": "webhook.js",
