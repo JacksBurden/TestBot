@@ -1,6 +1,7 @@
 'use strict';
 
 const express = require('express');
+const request = require('request');
 const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
@@ -41,7 +42,7 @@ function sendMessage(event) {
 
   request({
     url: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: {access_token: EAAbBZAAgVnRQBAJHH4ueMUzFgnyPCiZAl9Lz2KumZAvBLWCOBO36xkw4FCIIrSWr1A4AlXLubE2H8HaQAG3xaKEV8NZB3eZCACFnZC8iwaL8y0xOFT3oE60t034BkbSjYmZA8q8sOot9ZAg9j2b3NjrsRaUKxlU0c7AUUKLPlzCWvAZDZD},
+    qs: {access_token: 'EAAbBZAAgVnRQBAJHH4ueMUzFgnyPCiZAl9Lz2KumZAvBLWCOBO36xkw4FCIIrSWr1A4AlXLubE2H8HaQAG3xaKEV8NZB3eZCACFnZC8iwaL8y0xOFT3oE60t034BkbSjYmZA8q8sOot9ZAg9j2b3NjrsRaUKxlU0c7AUUKLPlzCWvAZDZD'},
     method: 'POST',
     json: {
       recipient: {id: sender},
