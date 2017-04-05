@@ -6,11 +6,18 @@
   "scripts": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
   "author": "Tighe Carroll",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.6"
   }
 }
