@@ -4,6 +4,7 @@
   "description": "A simple messenger bot for experimentation purposes",
   "main": "webhook.js",
   "scripts": {
+    "start": "node webhook.js",
     "test": "test"
   },
   "repository": {
