@@ -19,7 +19,7 @@
     "request": "^2.81.0"
   },
   "scripts": {
-    "start": "node webhook.js",
+    "start": "node webhook.js"
   },
   "devDependencies": {
     "ngrok": "^2.2.6"
